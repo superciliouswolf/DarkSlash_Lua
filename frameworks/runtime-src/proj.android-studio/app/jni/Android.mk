@@ -5,6 +5,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := cocos2dlua_shared
 
 LOCAL_MODULE_FILENAME := libcocos2dlua
+
 #-------------- .cpp  .c ---------------------
 SRC_SUFFIX := *.cpp *.c
 SRC_ROOT := $(LOCAL_PATH)/../../../Classes \
@@ -28,7 +29,6 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes \
                     $(LOCAL_PATH)/../../../Classes/reader/dragonbones/core \
                     $(LOCAL_PATH)/../../../Classes/reader/dragonbones/geom
 #-----------------------------------
-
 
 # _COCOS_HEADER_ANDROID_BEGIN
 # _COCOS_HEADER_ANDROID_END

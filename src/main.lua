@@ -11,7 +11,8 @@ local function main()
     
     local creatorReader = creator.CreatorReader:createWithFilename ('scenes/StartGame.ccreator')
     creatorReader:setup()
-    local myscene = creatorReader:getSceneGraph() 
+    local myscene 
+    = creatorReader:getSceneGraph() 
     
     local function onSceneEvent(event)
         if event == "enter" then
